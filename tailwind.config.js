@@ -11,7 +11,7 @@ module.exports = {
         photographytext: 'hsl(198, 62%, 26%)',
         
         // Neutral        
-        footer: 'hsl(168, 32%, 55%);',
+        footer: '#90d4c5;',
         verydarkdesaturatedblue: 'hsl(212, 27%, 19%)',
         verydarkgrayishblue: 'hsl(213, 9%, 39%)',
         darkgrayishblue: 'hsl(232, 10%, 55%)',
@@ -27,8 +27,8 @@ module.exports = {
 
       backgroundImage: {
         // Header section
-        desktop: "url('../public/images/desktop/image-header.jpg')",
-        mobile: "url('../public/images/mobile/image-header.jpg')",
+        desktop: "url('./images/desktop/image-header.jpg')",
+        mobile: "url('./images/mobile/image-header.jpg')",
       },
 
       height: {
