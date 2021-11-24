@@ -1,0 +1,57 @@
+#Content of Code Documentation
+
+1. Overview of Project
+2. The solution url
+3. The livesite url
+4. Methodology/Process involved in the Project
+5. Lessons learnt
+6. Group name and members
+
+
+#Overview of Project
+
+The project is the landing page of the Sunnyside agency and 
+the project is expected to test the layout and responsive skills of the members of the group.
+This project focuses mostly on HTML & CSS. There's a tiny bit of JS included for the mobile navigation toggle. 
+The users should be able to:
+(a) View the optimal layout for the site depending on their device's screen size
+(b) See hover states for all interactive elements on the page
+
+#Methodology/Process
+The technologies used in the project are HTML5, tailwindcss utilities and vanilla JS.
+The HTML is used for the markup, tailwindcss was used for styling the page while a little bit of JS was used for the Hamburger click event
+in the navbar of the project.
+
+#Lessons Learnt
+
+The project gave us the opportunity to put into practice all that was taught during the past 4 weeks of the internship.
+Tailwindcss moved from being just the framework we hear our instructors speak highly of to that framework 
+that actually performed magic for us in the project.
+
+#The solution url
+Find below the link to the repository where the files of the project can be found:
+
+
+#The livesite url
+Find below the link to the livesite to view the finished work:
+
+#Group number
+This is Group 47 of the Frontend Development track (HTML, CSS, TAILWIND, JS) at the Side Hustle Internship Cohort 4.0
+
+
+#Group members and Intern ID
+
+Green Abayomi Adedeji         SH-IT-0066112
+Aderibigbe Festus             SH-IT-0067184
+Bakare Damilola               SH-IT-0084162
+Valentine Godswill            SH-IT-0070944
+Ironuru Michael Chidiebere    SH-IT-0015758
+Adebowale Omolara             SH-IT-0112081
+Abdul-Azeez Halimah Olaolohun SH-IT-0013741
+David Makanjuola              SH-IT-0028466
+
+
+
+
+
+
