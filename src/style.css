@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:wght@700;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.heading {
+    @apply text-4xl font-black font-serf text-verydarkdesaturatedblue;
+}
+
+.card {
+    @apply text-center px-3 py-12 bg-White;
+}
+
+.text {
+    @apply my-8 leading-8 text-verydarkgrayishblue;
+}
+
+.link {
+    @apply inline-block font-serf font-black text-xl uppercase text-verydarkdesaturatedblue;
+}
+
+.name {
+    @apply font-serf font-black text-2xl my-3 text-verydarkdesaturatedblue;
+}
+.menu-items {
+    position: absolute;
+    left: 50%;
+    top: 5rem;
+    transform: translateX(-50%);
+    width: 87%;
+}
+
+.menu-items:after {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: -1.2rem;
+    border-top: 0.6rem solid transparent;
+    border-bottom: 0.6rem solid hsl(0, 0%, 100%);
+    border-left: 0.6rem solid transparent;
+    border-right: 0.6rem solid hsl(0, 0%, 100%);
+}
+
+.read::after {
+    content: "";
+    display: block;
+    width: 110%;
+    height: 0.7rem;
+    margin-top: -13px;
+    margin-left: -6%;
+    border-radius: 0.5rem;
+}
+.yellow::after {
+    background: hsla(51, 100%, 49%, 0.404);
+    
+}
+.yellow:hover::after {
+    background: hsl(51, 100%, 49%);
+
+}
+
+.red::after {
+    background: hsla(7, 99%, 70%, 0.493);
+}
+
+.red:hover::after {
+    background: hsl(7, 99%, 70%);
+}
+
+
+.socials > ul > li > a img{
+    transition: .25s;
+}
+
+.socials > ul > li > a:hover img{
+    filter: brightness(0) invert(1);
+}
